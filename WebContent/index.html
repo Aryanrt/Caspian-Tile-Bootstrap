@@ -31,10 +31,30 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+	
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-3740493287992862",
+    enable_page_level_ads: true
+  });
+</script>
+	
+	
 
 </head>
 
 <body id="page-top">
+<?php include_once("analyticstracking.php") ?>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
@@ -47,7 +67,7 @@
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"  style="width:100%">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
                         <a class="page-scroll" href="#about">About</a>
@@ -68,25 +88,26 @@
         <!-- /.container-fluid -->
     </nav>
 
+<!--
     <header>
         <div class="header-content">
             <div class="header-content-inner">
                 <h1 id="homeHeading">Your Local Flooring specialist</h1>
                 <hr>
-                <p>Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!</p>
-                <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
+                <p></p>
+                <a href="#about" class="btn btn-primary btn-xl page-scroll">See more</a>
             </div>
         </div>
     </header>
-
+-->
     <section class="bg-primary" id="about">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <h2 class="section-heading">Locally Owned and Operated</h2>
                     <hr class="light">
-                    <p class="text-faded">We are a young company with high standards in the flooring industry as well aggressive pricing. We strive to provide the best installation and friendly customer feedback.</p>
-                    <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">Get Started!</a>
+                    <p class="text-faded">We are a young, but highly competitive company specializing in ceramic, porcelain, and natural stone installation. Available in Ottawa and surrounding areas, we offer affordable pricing along with quality workmanship, creativity, and knowledge of various types of design and patterns. While being fully insured and offering a warranty on all installations, you can rest assured that Caspian Tile will always provide the best service possible for any job, no matter how big or small!</p>
+                    <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">See Our Services</a>
                 </div>
             </div>
         </div>
@@ -103,218 +124,220 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-md-6 text-center">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-diamond text-primary sr-icons"></i>
-                        <h3>Demolitions</h3>
-                        <p class="text-muted">Our templates are updated regularly so they don't break.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-paper-plane text-primary sr-icons"></i>
-                        <h3>Water Proofing</h3>
-                        <p class="text-muted">You can use this theme as is, or you can make changes!</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>
-                        <h3>Ceramic Installation</h3>
-                        <p class="text-muted">We update dependencies to keep things fresh.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-heart text-primary sr-icons"></i>
+                        <!--<i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>-->
+						<img src="img/portfolio/thumbnails/installation.jpg"></img>
                         <h3>Tile Installation</h3>
-                        <p class="text-muted">You have to make your websites with love these days!</p>
+                        <p class="text-muted">Shower, Tub surround, Backsplash, Entrance, etc.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 text-center">
+                    <div class="service-box">
+                        <img src="img/portfolio/thumbnails/repair.jpg"></img>
+                        <h3>Repair</h3>
+                        <p class="text-muted">Repair or modification to exisiting tile.<br><br><br><br></p>
+                    </div>
+                </div>
+				<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 text-center">
+					<div class="service-box">
+						<img src="img/portfolio/thumbnails/wp.jpg"></img>
+							<h3>Water Proofing</h3>
+							<p class="text-muted">Installation and warranty of all Schluter products(Ditra Heat, Kerdi, Niches, etc)</p>
+					</div>
+                </div>
+				<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 text-center">
+                    <div class="service-box">
+                        <img src="img/portfolio/thumbnails/Demo.jpg" width=""></img>
+                        <h3>Demolition</h3>
+                        <p class="text-muted">Removal of existing tile and preparation</p>
                     </div>
                 </div>
             </div>
         </div>
+		<div class="col-lg-8 col-lg-offset-2 text-center" style="margin-top: 10">
+			<a href="#portfolio" class="page-scroll btn btn-default btn-xl sr-button" style="background-color: #5b90e5;color: #FFFFFF">See Our Gallery</a>
+		</div>
     </section>
 
     <section class="no-padding" id="portfolio">
         <div class="container-fluid">
             <div class="row no-gutter popup-gallery">
-                <div class="col-lg-2 col-sm-6">
+                <div class="col-lg-2 col-sm-3  col-xs-3">
                     <a href="img/portfolio/fullsize/10.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/10.jpg" class="img-responsive" alt="">
+                        <img src="img/portfolio/thumbnails/10.jpg" class="img-responsive" alt=""></img>
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Category
+                                    <div style="font-size: 0.8em;">Kitchen floor</div>
                                 </div>
                                 <div class="project-name">
-                                    Project Name
+                                    <div style="font-size: 0.6em;">18 x 18</div>
                                 </div>
                             </div>
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-2 col-sm-6">
+                <div class="col-lg-2 col-sm-3  col-xs-3">
                     <a href="img/portfolio/fullsize/11.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/11.jpg" class="img-responsive" alt="">
+                        <img src="img/portfolio/thumbnails/11.jpg" class="img-responsive" alt=""></img>
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Category
+                                    <div style="font-size: 0.8em;">Garage Enterance</div>
                                 </div>
                                 <div class="project-name">
-                                    Project Name
+                                    <div style="font-size: 0.6em;">12 x 24</div>
                                 </div>
                             </div>
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-2 col-sm-6">
-                    <a href="img/portfolio/fullsize/12.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/12.jpg" class="img-responsive" alt="">
+                <div class="col-lg-2 col-sm-3  col-xs-3">
+                    <a href="img/portfolio/fullsize/new1.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/new1.jpg" class="img-responsive" alt=""></img>
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Category
+                                    <div style="font-size: 0.8em;">Brick pattern</div>
                                 </div>
                                 <div class="project-name">
-                                    Project Name
+                                    <div style="font-size: 0.6em;">12 x 24</div>
                                 </div>
                             </div>
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-2 col-sm-6">
-                    <a href="img/portfolio/fullsize/13.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/13.jpg" class="img-responsive" alt="">
+                <div class="col-lg-2 col-sm-3  col-xs-3">
+                    <a href="img/portfolio/fullsize/new2.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/new2.jpg" class="img-responsive" alt=""></img>
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Category
+                                    <div style="font-size: 0.8em;">Mosaic Niche</div>
                                 </div>
                                 <div class="project-name">
-                                    Project Name
+                                    <div style="font-size: 0.6em;">4 x 12</div>
                                 </div>
                             </div>
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-2 col-sm-6">
-                    <a href="img/portfolio/fullsize/14.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/14.jpg" class="img-responsive" alt="">
+                <div class="col-lg-2 col-sm-3  col-xs-3">
+                    <a href="img/portfolio/fullsize/new3.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/new3.jpg" class="img-responsive" alt=""></img>
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Category
+                                    <div style="font-size: 0.8em;">Tub Surround</div>
                                 </div>
                                 <div class="project-name">
-                                    Project Name
+                                    <div style="font-size: 0.6em;">4 x 12</div>
                                 </div>
                             </div>
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-2 col-sm-6">
-                    <a href="img/portfolio/fullsize/21.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/21.jpg" class="img-responsive" alt="">
+                <div class="col-lg-2 col-sm-3 col-xs-3">
+                    <a href="img/portfolio/fullsize/new4.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/new4.jpg" class="img-responsive" alt=""></img>
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Category
+                                    <div style="font-size: 0.8em;">Staggered Brick</div>
                                 </div>
                                 <div class="project-name">
-                                    Project Name
+                                    <div style="font-size: 0.6em;">12 x 24</div>
                                 </div>
                             </div>
                         </div>
                     </a>
                 </div>
-            </div>
-         <div class="row no-gutter popup-gallery">
-                <div class="col-lg-2 col-sm-6">
+                <div class="col-lg-2 col-sm-3 col-xs-3">
                     <a href="img/portfolio/fullsize/16.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/16.jpg" class="img-responsive" alt="">
+                        <img src="img/portfolio/thumbnails/16.jpg" class="img-responsive" alt=""></img>
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Category
+                                    <div style="font-size: 0.8em;">Mosaic Niche</div>
                                 </div>
                                 <div class="project-name">
-                                    Project Name
+                                    <div style="font-size: 0.6em;">10 FT Shower</div>
                                 </div>
                             </div>
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-2 col-sm-6">
+                <div class="col-lg-2 col-sm-3 col-xs-3">
                     <a href="img/portfolio/fullsize/17.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/17.jpg" class="img-responsive" alt="">
+                        <img src="img/portfolio/thumbnails/17.jpg" class="img-responsive" alt=""></img>
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Category
+                                    <div style="font-size: 0.8em;">Shower Niche</div>
                                 </div>
                                 <div class="project-name">
-                                    Project Name
+                                    <div style="font-size: 0.6em;">3 x 6</div>
                                 </div>
                             </div>
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-2 col-sm-6">
+                <div class="col-lg-2 col-sm-3 col-xs-3">
                     <a href="img/portfolio/fullsize/18.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/18.jpg" class="img-responsive" alt="">
+                        <img src="img/portfolio/thumbnails/18.jpg" class="img-responsive" alt=""></img>
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Category
+                                    <div style="font-size: 0.8em;">Laundry room</div>
                                 </div>
                                 <div class="project-name">
-                                    Project Name
+                                    <div style="font-size: 0.6em;">13 x 13</div>
                                 </div>
                             </div>
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-2 col-sm-6">
+                <div class="col-lg-2 col-sm-3 col-xs-3">
                     <a href="img/portfolio/fullsize/19.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/19.jpg" class="img-responsive" alt="">
+                        <img src="img/portfolio/thumbnails/19.jpg" class="img-responsive" alt=""></img>
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Category
+                                    <div style="font-size: 0.8em;">Walls and Floors</div>
                                 </div>
                                 <div class="project-name">
-                                    Project Name
+                                    <div style="font-size: 0.6em;">12 x 24</div>
                                 </div>
                             </div>
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-2 col-sm-6">
+                <div class="col-lg-2 col-sm-3 col-xs-3">
                     <a href="img/portfolio/fullsize/20.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/20.jpg" class="img-responsive" alt="">
+                        <img src="img/portfolio/thumbnails/20.jpg" class="img-responsive" alt=""></img>
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Category
+                                    <div style="font-size: 0.8em;">Clipping Systems</div>
                                 </div>
                                 <div class="project-name">
-                                    Project Name
+                                    <div style="font-size: 0.6em;">6 x 36</div>
                                 </div>
                             </div>
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-2 col-sm-6">
+                <div class="col-lg-2 col-sm-3 col-xs-3">
                     <a href="img/portfolio/fullsize/15.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/15.jpg" class="img-responsive" alt="">
+                        <img src="img/portfolio/thumbnails/15.jpg" class="img-responsive" alt=""></img>
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Category
+                                    <div style="font-size: 0.8em;">Front Enterance</div>
                                 </div>
                                 <div class="project-name">
-                                    Project Name
+                                    <div style="font-size: 0.6em;">12 x 24</div>
                                 </div>
                             </div>
                         </div>
@@ -324,6 +347,7 @@
         </div>
     </section>
 
+	<!--
     <aside class="bg-dark">
         <div class="container text-center">
             <div class="call-to-action">
@@ -332,26 +356,35 @@
             </div>
         </div>
     </aside>
-
+	-->
     <section id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <h2 class="section-heading">Let's Get In Touch!</h2>
                     <hr class="primary">
-                    <p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
+                    <p>Ready to get a quote with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
                 </div>
-                <div class="col-lg-4 col-lg-offset-2 text-center">
+                <div class="col-lg-4 col-sm-6 col-xs-6 text-center">
+					<a href="tel:+16133166743">
                     <i class="fa fa-phone fa-3x sr-contact"></i>
                     <p>(613)316-6743</p>
+					</a>
                 </div>
-                <div class="col-lg-4 text-center">
-                    <i class="fa fa-envelope-o fa-3x sr-contact"></i>
-                    <p><a href="mailto:your-email@your-domain.com">Caspiantile@gmail.com</a></p>
+                <div class="col-lg-4 col-sm-6 col-xs-6 text-center">
+					<a href="https://www.facebook.com/Caspian-Tile-1316847881735026/" class="fa fa-facebook" style="font-size:40px"></a>
+					<a href="https://www.facebook.com/Caspian-Tile-1316847881735026/">
+						<p>Facebook</p>
+					</a>
+                </div>
+                <div class="col-lg-4 col-sm-12 col-xs-12 text-center">
+                    <a href="mailto:Caspiantile@gmail.com">
+					<i class="fa fa-envelope-o fa-3x sr-contact"></i>
+                    <p>Caspiantile@gmail.com</a></p>
                 </div>
             </div>
         </div>
-    </section>
+	</section>
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
@@ -366,6 +399,9 @@
 
     <!-- Theme JavaScript -->
     <script src="js/creative.min.js"></script>
+	
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 
 </body>
 
