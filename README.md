@@ -1,7 +1,6 @@
 Simple BootStrap webpage 
 
-Version 1 in branch master, available at:
-## https://caspian-tile.herokuapp.com/
+## http://CaspianTile.ca
 
 Version 2 in branch version2, available at:
-## https://caspian-tile-v2.herokuapp.com/
+## https://caspian-tile.herokuapp.com/
